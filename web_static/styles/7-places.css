@@ -4,6 +4,12 @@
     font-size: 30px;
     width: 100%;
 }
+.places h2 
+{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
 .places article 
 {
     width: 390px;
@@ -13,4 +19,10 @@
     border-radius: 4px;
     display: inline-block;
     flex-wrap: wrap;
+}
+.places
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
